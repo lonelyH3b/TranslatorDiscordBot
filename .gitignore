@@ -1,2 +1,9 @@
 .env
+
 messageCount.txt
+
+.venv
+
+__pycache__/
+
+ruff.toml

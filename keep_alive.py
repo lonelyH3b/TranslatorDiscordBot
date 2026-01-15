@@ -12,7 +12,8 @@ def home():
 def run():
   app.run(
 		host='0.0.0.0',
-		port=random.randint(2000,9000)
+		port=random.randint(2000,9000),
+		debug=True
 	)
 
 def keep_alive():
